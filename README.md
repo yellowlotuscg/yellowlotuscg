@@ -1,62 +1,41 @@
-# Hi, I'm Matthew 👋
+## Matthew
 
-**Security / GRC engineer (11+ yrs) moving deeper into DevOps & Cloud.**
-Primary technical contact for SOX, PCI-DSS, and FISMA audits; remediated 450+ SOX
-findings; CIS/NIST CSF hardening; AWS + Kubernetes + Terraform on the build side.
-CISSP and AZ-500 in progress.
+I run **[Yellow Lotus Consulting Group](https://yellow-lotus-consulting.vercel.app)**, where I help
+small businesses run on technology that actually fits them, and do contract GRC,
+cloud, and DevOps work for larger organizations. Background in security and
+governance (11+ years across SOX, PCI-DSS, and FISMA), more recently CloudOps and
+DevOps, sitting on a foundation of network and software engineering.
 
-I don't think a wall of certs proves much on its own. What proves something is
-that you **broke something, fixed something, and built something** — and can show
-how you thought through it. So instead of a list of acronyms, here are two
-projects I built and can walk you through line by line.
+I am also open to full-time **CloudOps / DevOps** roles. The fastest way to judge
+whether I can do the work is to read the work, so here it is.
 
----
+### Case studies
 
-## 🔧 Projects
+**[CloudRiskIQ](https://github.com/yellowlotuscg/cloudriskiq)** — security posture and compliance, as code.
+Pulls findings from AWS, Azure, endpoints, and GitHub, scores them by real risk
+instead of raw severity, maps each one to NIST CSF, CIS, PCI-DSS, SOX, and FISMA,
+and produces an audit-ready evidence pack. FastAPI, Next.js, a Python CLI, 24 tests.
+[How I think about it.](https://github.com/yellowlotuscg/cloudriskiq/blob/main/docs/broke-fixed-built.md)
 
-### [CloudRiskIQ](https://github.com/yellowlotuscg/cloudriskiq) — security posture + compliance, as code
-Ingests security findings from AWS, Azure, endpoints, and GitHub; normalizes them;
-**risk-scores** each one by context (not just raw severity); maps every finding to
-**NIST CSF / CIS / PCI-DSS / SOX / FISMA** controls; and generates an audit-ready
-evidence pack. FastAPI + Next.js + a Python CLI. Runs offline on synthetic data.
+**[self-healing-k8s-pipeline](https://github.com/yellowlotuscg/self-healing-k8s-pipeline)** — a real EKS incident, made runnable.
+A pod-scheduling stampede that cascaded into node failures, reproduced on a local
+cluster and fixed properly: right-sized requests, tuned probes, disruption budgets,
+and the alerts that would have caught it. Terraform, Ansible, CI/CD, Prometheus.
+[The post-mortem.](https://github.com/yellowlotuscg/self-healing-k8s-pipeline/blob/main/docs/INCIDENT-POSTMORTEM.md)
 
-> **Broke:** in real audits, "severity" isn't "risk," and control-mapped evidence
-> was assembled by hand. **Fixed:** a transparent risk-scoring engine + an
-> automated control mapper. **Built:** a working full-stack app with 24 tests.
+**[leetcode-reasoning](https://github.com/yellowlotuscg/leetcode-reasoning)** — algorithms, with the reasoning written down.
+Ten classic problems in Python, each with how I read the prompt, find the
+invariant, and choose a structure that hits the target complexity.
 
-→ [Read the writeup](https://github.com/yellowlotuscg/cloudriskiq/blob/main/docs/broke-fixed-built.md)
+### What I work with
 
-### [self-healing-k8s-pipeline](https://github.com/yellowlotuscg/self-healing-k8s-pipeline) — the EKS incident, made runnable
-A self-healing Kubernetes CI/CD + observability demo that reproduces a real EKS
-incident I worked — a pod-scheduling stampede that cascaded into node failures —
-on a free local `kind` cluster, then ships the fixes as code. `make break`
-reproduces it; `make heal` recovers it.
+Security and GRC: SOX, PCI-DSS, FISMA, NIST CSF, NIST 800-53, CIS Controls, Zero Trust, IAM, Entra ID, Qualys.
 
-> **Broke:** no resource requests + a liveness probe doing readiness's job → the
-> scheduler overpacked nodes → memory pressure → cascading evictions →
-> CrashLoopBackOff. **Fixed:** right-sized requests/limits, tuned probes, a PDB,
-> topology spread, and a Jenkins-on-k8s rebuild with EFS-backed storage.
-> **Built:** the manifests, Terraform, Ansible, CI/CD, Prometheus/Grafana alerts,
-> and a full post-mortem.
+Cloud and DevOps: AWS (EKS, IAM, Lambda, CloudWatch, DynamoDB, SNS/SQS, ALB, S3), Kubernetes, Terraform, Ansible, Jenkins, GitHub Actions.
 
-→ [Read the post-mortem](https://github.com/yellowlotuscg/self-healing-k8s-pipeline/blob/main/docs/INCIDENT-POSTMORTEM.md)
+Languages and observability: Python (FastAPI), Bash, PowerShell, Datadog, Prometheus, Grafana, Git.
 
----
+### Reach me
 
-## 🧰 What I work with
-
-**Security / GRC:** SOX · PCI-DSS · FISMA · NIST CSF · NIST 800-53 · CIS Controls ·
-Zero Trust · IAM / RBAC / MFA · Entra ID · Qualys vuln management
-
-**DevOps / Cloud:** AWS (EKS, IAM, Lambda, CloudWatch, DynamoDB, SNS/SQS, ALB, S3) ·
-Kubernetes · Terraform · Ansible · Jenkins · GitHub Actions
-
-**Languages & tooling:** Python (FastAPI) · Bash · PowerShell ·
-Datadog · Prometheus · Grafana · Git
-
----
-
-## 📫 Reach me
-
-- 🌐 Portfolio: **https://yellowlotuscg.github.io/portfolio/**
-- 📧 yellowlotuscg@gmail.com
+Site: https://yellow-lotus-consulting.vercel.app
+Email: yellowlotuscg@gmail.com
