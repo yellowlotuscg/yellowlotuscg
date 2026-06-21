@@ -17,6 +17,13 @@ instead of raw severity, maps each one to NIST CSF, CIS, PCI-DSS, SOX, and FISMA
 and produces an audit-ready evidence pack. FastAPI, Next.js, a Python CLI, 24 tests.
 [How I think about it.](https://github.com/yellowlotuscg/cloudriskiq/blob/main/docs/broke-fixed-built.md)
 
+**[home-soc-lab](https://github.com/yellowlotuscg/home-soc-lab)**: Active Directory hardening and SOC detection.
+A documented home lab: an AD domain, a CIS-aligned Group Policy baseline, the audit
+policy that makes attacks visible, and a free SIEM with detection-as-code (Sigma
+plus Wazuh) for brute force, privilege escalation, and policy tampering. Mapped to
+NIST CSF, CIS, and the SOX, SOC 2, and ISO pathway.
+[Broke / fixed / built.](https://github.com/yellowlotuscg/home-soc-lab/blob/main/docs/BROKE-FIXED-BUILT.md)
+
 **[self-healing-k8s-pipeline](https://github.com/yellowlotuscg/self-healing-k8s-pipeline)**: a real EKS incident, made runnable.
 A pod-scheduling stampede that cascaded into node failures, reproduced on a local
 cluster and fixed properly: right-sized requests, tuned probes, disruption budgets,
@@ -24,7 +31,7 @@ and the alerts that would have caught it. Terraform, Ansible, CI/CD, Prometheus.
 [The post-mortem.](https://github.com/yellowlotuscg/self-healing-k8s-pipeline/blob/main/docs/INCIDENT-POSTMORTEM.md)
 
 **[leetcode-reasoning](https://github.com/yellowlotuscg/leetcode-reasoning)**: algorithms, with the reasoning written down.
-Ten classic problems in Python, each with how I read the prompt, find the
+Twenty-four classic problems in Python, each with how I read the prompt, find the
 invariant, and choose a structure that hits the target complexity.
 
 ### What I work with
