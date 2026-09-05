@@ -23,6 +23,13 @@ These are bounded demonstrations, practice projects or incident reconstructions.
 
 Client source code, credentials, private records and production infrastructure are not portfolio material. Public examples use synthetic or deliberately sanitized inputs. AI-assisted work is reviewed against code and evidence; tooling attribution is preserved.
 
+## New reference projects
+
+- [Deployment Starter](https://github.com/yellowlotuscg/small-business-deployment-starter): local inventory API, recovery procedures, staff training and AWS/GCP/Azure reference paths. Cloud paths are not live deployments.
+- [Datadog observability proof](https://github.com/yellowlotuscg/datadog-observability-proof): synthetic dashboard and monitor configuration with local consistency tests.
+- [LogRhythm detection proof](https://github.com/yellowlotuscg/logrhythm-detection-proof): synthetic authentication-event investigation and tested detection logic, not an exported vendor rule.
+- [CTERA operations proof](https://github.com/yellowlotuscg/ctera-operations-proof): synthetic fleet and backup checks with documented adapter boundaries.
+
 ## Get in touch
 
 Visit [Yellow Lotus Consulting](https://yellowlotuscg.com) for consulting enquiries and the [public proof index](https://yellowlotuscg.com/proof-of-concepts/) for more examples.
