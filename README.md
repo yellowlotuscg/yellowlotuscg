@@ -4,6 +4,8 @@ I work across DevOps, cloud operations, security and business automation. Throug
 
 ## For hiring teams
 
+Start with the [Deployment Starter](https://github.com/yellowlotuscg/small-business-deployment-starter) for application delivery, recovery and three cloud reference paths, then the [Datadog proof](https://github.com/yellowlotuscg/datadog-observability-proof) for offline observability checks.
+
 I am interested in DevOps and CloudOps roles where reliable infrastructure, clear incident response and practical automation matter. These public examples show how I approach problems, document decisions and make work easier to inspect and hand off.
 
 - [Kubernetes reliability reconstruction](https://github.com/yellowlotuscg/self-healing-k8s-pipeline): a local recreation of reliability problems, with deployment configuration, incident analysis and a runbook. It is not a copy of a client's production environment.
@@ -11,10 +13,12 @@ I am interested in DevOps and CloudOps roles where reliable infrastructure, clea
 
 ## For small businesses
 
+Start with the [Deployment Starter](https://github.com/yellowlotuscg/small-business-deployment-starter) and the [staff workshop and pilot package](https://github.com/yellowlotuscg/ai-adoption-operating-system#workshop-and-supervised-pilot-package). Both explain what is included and what still needs review before real business use.
+
 I offer implementation help with automation, business workflows and practical AI tools. Optional training can accompany a deployment so staff can use the tools, check their outputs, protect business information and know when to ask for human review.
 
 - [Lead workflow demo](https://github.com/yellowlotuscg/lead-operations-control-plane): sample enquiries, prioritization and draft follow-ups, with an approval step before consequential action.
-- [AI training framework](https://github.com/yellowlotuscg/ai-adoption-operating-system): introductory safe-use and task-planning materials. This is a developing framework, not a claim of measured client training results.
+- [AI training framework](https://github.com/yellowlotuscg/ai-adoption-operating-system): safe-use materials, a facilitator guide, source-checking lab, assessment and supervised-pilot handoff. No measured client training results are claimed.
 - [Agent workflow demo](https://github.com/yellowlotuscg/agentic-workflow-control-plane): a small example of checkpoints, recovery states and human approval.
 
 ## What these repositories prove
