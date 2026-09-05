@@ -1,45 +1,28 @@
-# Yellow Lotus Consulting Group
+# Matthew Coggins | Yellow Lotus Consulting Group
 
-Yellow Lotus Consulting Group builds privacy-aware technology, security, automation, and operational systems for organizations that need practical implementation.
+I work across DevOps, cloud operations, security and business automation. Through Yellow Lotus Consulting Group, I help small businesses implement useful systems and understand how to run them. My experience includes a Cart.com client contract delivered through Yellow Lotus, not separate direct employment.
 
-## What we build
+## For hiring teams
 
-- Websites, local SEO, and lead-capture systems
-- Lead-response and revenue-operations workflows
-- Agentic systems with human approval gates
-- Local-first AI and private knowledge tools
-- Security, compliance, and detection engineering
-- Cloud, Kubernetes, reliability, and observability systems
-- AI adoption frameworks and team training
-- Creative production systems with review, provenance, and accessibility controls
+I am interested in DevOps and CloudOps roles where reliable infrastructure, clear incident response and practical automation matter. These public examples show how I approach problems, document decisions and make work easier to inspect and hand off.
 
-## How we work
+- [Kubernetes reliability reconstruction](https://github.com/yellowlotuscg/self-healing-k8s-pipeline): a local recreation of reliability problems, with deployment configuration, incident analysis and a runbook. It is not a copy of a client's production environment.
+- [CloudRiskIQ](https://github.com/yellowlotuscg/cloudriskiq): a security decision-support demo that organizes sample findings, explains risk scores and exports evidence for human review. It does not certify compliance.
 
-We make systems inspectable, approval-aware, measurable, and recoverable. Where privacy requires it, we prefer local-first operation. External messages, money movement, production changes, and other irreversible actions remain explicit human decisions.
+## For small businesses
 
-## Selected proof
+I offer implementation help with automation, business workflows and practical AI tools. Optional training can accompany a deployment so staff can use the tools, check their outputs, protect business information and know when to ask for human review.
 
-### Business systems
+- [Lead workflow demo](https://github.com/yellowlotuscg/lead-operations-control-plane): sample enquiries, prioritization and draft follow-ups, with an approval step before consequential action.
+- [AI training framework](https://github.com/yellowlotuscg/ai-adoption-operating-system): introductory safe-use and task-planning materials. This is a developing framework, not a claim of measured client training results.
+- [Agent workflow demo](https://github.com/yellowlotuscg/agentic-workflow-control-plane): a small example of checkpoints, recovery states and human approval.
 
-- [Yellow Lotus Consulting](https://github.com/yellowlotuscg/yellow-lotus-consulting): public capability site and service system
-- [Lead Operations Control Plane](https://github.com/yellowlotuscg/lead-operations-control-plane): lead intake, scoring, follow-up drafts, approval gates, and audit history
+## What these repositories prove
 
-### Applied AI
+These are bounded demonstrations, practice projects or incident reconstructions. Read each project's implemented scope, tests and limitations before using it. Public code is not evidence of production deployment, client savings or a certification.
 
-- [Agentic Workflow Control Plane](https://github.com/yellowlotuscg/agentic-workflow-control-plane): checkpointed planning, workers, artifacts, recovery, and human approval
-- [Private Legal AI Workbench](https://github.com/yellowlotuscg/private-legal-ai-workbench): local-first, source-grounded document research with citations and access boundaries
-- [AI Adoption Operating System](https://github.com/yellowlotuscg/ai-adoption-operating-system): role-based training, safe-use patterns, evaluation, and workflow redesign
-- [Architecture AI RAG Proof of Concept](https://github.com/yellowlotuscg/architecture-ai-rag-poc): offline model-data and building-code retrieval reference architecture
+Client source code, credentials, private records and production infrastructure are not portfolio material. Public examples use synthetic or deliberately sanitized inputs. AI-assisted work is reviewed against code and evidence; tooling attribution is preserved.
 
-### Security and reliability
+## Get in touch
 
-- [CloudRiskIQ](https://github.com/yellowlotuscg/cloudriskiq): explainable security risk scoring, control mapping, and evidence export
-- [Self-Healing Kubernetes Pipeline](https://github.com/yellowlotuscg/self-healing-k8s-pipeline): reliability incident reconstruction, remediation, observability, and runbook
-
-## Public proof boundary
-
-Public repositories are deliberately constructed proofs, demos, or reference architectures. They use synthetic data and demonstrate bounded capabilities, controls, tests, and operating discipline. Client work, household systems, credentials, confidential records, production operations, deployment internals, and private infrastructure remain in private repositories.
-
-Available for scoped consulting, implementation, architecture, AI enablement, security engineering, and technical contract work for small, medium, and larger organizations.
-
-[Website](https://yellowlotuscg.com) · [Proof index](https://yellowlotuscg.com/proof-of-concepts/)
+Visit [Yellow Lotus Consulting](https://yellowlotuscg.com) for consulting enquiries and the [public proof index](https://yellowlotuscg.com/proof-of-concepts/) for more examples.
