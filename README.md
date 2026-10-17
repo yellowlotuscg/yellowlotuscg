@@ -23,6 +23,18 @@ Other public examples:
 - [LogRhythm detection proof](https://github.com/yellowlotuscg/logrhythm-detection-proof) is a synthetic authentication-event investigation and tested detection logic. It is not an exported vendor rule.
 - [CTERA operations proof](https://github.com/yellowlotuscg/ctera-operations-proof) covers synthetic fleet and backup checks, with the adapter boundary written down.
 
+## Pattern case studies
+
+Each of these takes one enterprise design pattern and builds it from scratch on synthetic data, with infrastructure as code that is validated in CI but not deployed. Every repository runs offline and has secret scanning in CI.
+
+- [Blue-green edge deploy](https://github.com/yellowlotuscg/blue-green-edge-deploy) (Blue-Green Deployment): a static site on CloudFront and S3 with smoke-test-gated promotion, one-command rollback, and an edge auth gate for admin routes. Terraform.
+- [Idempotent inbox triage](https://github.com/yellowlotuscg/idempotent-inbox-triage) (Idempotency Keys, Transactional Outbox): an explainable email rules engine on SES, EventBridge, and Lambda, with fault-injection tests for duplicate deliveries and crashes. Terraform.
+- [Feature flag release gates](https://github.com/yellowlotuscg/feature-flag-release-gates) (Feature Flags, quality gates): a .NET 8 API on Azure Container Apps with App Configuration flags, a kill switch, policy-as-code merge checks, and an approval audit report. Bicep.
+- [Bulkhead agent router](https://github.com/yellowlotuscg/bulkhead-agent-router) (Bulkhead, Circuit Breaker): a multi-tenant task router for worker agents on Azure Service Bus and Functions, with a chaos test showing one tenant's failures do not reach another. Bicep.
+- [Event-sourced knowledge hub](https://github.com/yellowlotuscg/event-sourced-knowledge-hub) (Event Sourcing): an append-only document store on DynamoDB Streams and Lambda with optimistic concurrency, deterministic replay, and ingest-time secret scanning. TypeScript, Terraform.
+- [CQRS faceted search](https://github.com/yellowlotuscg/cqrs-faceted-search) (CQRS): separate write and search models for an equipment-manual catalog, with provenance on every hit and index rebuilds that do not block writes. Python, React, Bicep.
+- [Claim-check handoff ledger](https://github.com/yellowlotuscg/claim-check-handoff-ledger) (Claim Check): schema-validated handoff records for long-running work, with content-addressed context storage and stale-reference detection. TypeScript, Bicep.
+
 ## For small businesses
 
 I offer implementation help with automation, business workflows, and practical AI tools. Optional training can accompany a deployment so staff can use the tools, check their outputs, protect business information, and know when to ask for human review. A useful place to start is the [deployment starter](https://github.com/yellowlotuscg/small-business-deployment-starter).
